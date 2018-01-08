@@ -91,26 +91,3 @@
 	color: #212121;
 	transition: 1s;
 }
-.in-text{
-	margin: 10px;
-	padding: 10px;
-	background-color: #aaa;
-	border:1px solid #aaa;
-	border-radius: 5px;
-	display: inline-block;
-	border-top-right-radius:0; 
-	border-bottom-right-radius:0; 
-}
-input[type=text]{
-	border:0.5px solid #e83333;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px;
-	outline: none;
-}
-input[type=text]:focus{
-	border-color: blue;
-	box-shadow:0 0 10px 0 dodgerblue;
-	width: 50px;
-	transition: 3s;
-}

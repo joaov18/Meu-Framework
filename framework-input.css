@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.barra-nav{
+	display: inline-block;
+	border-radius: 5px;
+	border:1px solid #aaa;
+	margin: 10px;
+	padding: 10px;
+	outline: none;
+}
+input[class="barra-nav"]:focus{
+	border:1px solid #ff2323;
+	transition: 0.8s;
+	box-shadow: 0 0 3px 0 #ff2323;
+	background-color:#ffefef;
+}
