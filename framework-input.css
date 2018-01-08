@@ -11,7 +11,7 @@
 	padding: 10px;
 	outline: none;
 }
-input[class="barra-nav"]:focus{
+input[name="bar-red"]:focus{
 	border:1px solid #ff2323;
 	transition: 0.8s;
 	box-shadow: 0 0 3px 0 #ff2323;
