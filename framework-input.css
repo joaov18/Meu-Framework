@@ -51,7 +51,7 @@
 	left: 250px;
 	color: #ff0000;
 }
-.fa-check{
+.fa-check {
 	position: absolute;
 	top: 19.2px;
 	left: 250px;
@@ -62,4 +62,10 @@
 	position: absolute;
 	top: 19.2px;
 	left: 20px;
+}
+.fa-user-o{
+	position: absolute;
+	top: 19.2px;
+	left: 20px;
+	color: #3c6042;
 }
