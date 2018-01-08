@@ -3,6 +3,12 @@
 	padding: 0;
 	font-family: arial;
 }
+.in-com-icon{
+	box-sizing: border-box;
+	width: 290px;
+	position: relative;
+	display: inline-block;
+}
 .barra-nav{
 	display: inline-block;
 	border-radius: 5px;
@@ -10,10 +16,50 @@
 	margin: 10px;
 	padding: 10px;
 	outline: none;
+	width: 240px;
 }
-input[name="bar-red"]:focus{
-	border:1px solid #ff2323;
-	transition: 0.8s;
-	box-shadow: 0 0 3px 0 #ff2323;
-	background-color:#ffefef;
+.barra-nav-icon{
+	display: inline-block;
+	border-radius: 5px;
+	border:1px solid #aaa;
+	margin: 10px;
+	padding: 10px 30px 10px 10px;
+	outline: none;
+	width: 220px;
+}
+.barra-nav-dois-icon{
+	display: inline-block;
+	border-radius: 5px;
+	border:1px solid #aaa;
+	margin: 10px;
+	padding: 10px 30px 10px 30px;
+	outline: none;
+	width: 200px;
+}
+.b-red{
+	border:1px solid #ff0000;
+}
+.b-green{
+	border:1px solid #009e1a;
+}
+.b-grey{
+	border:1px solid #aaa;
+}
+.fa-times{
+	position: absolute;
+	top: 19.2px;
+	left: 250px;
+	color: #ff0000;
+}
+.fa-check{
+	position: absolute;
+	top: 19.2px;
+	left: 250px;
+	color: #009e1a;
+}
+.fa-calendar{
+	opacity: 0.5;
+	position: absolute;
+	top: 19.2px;
+	left: 20px;
 }
