@@ -47,6 +47,7 @@
 	padding: 10px;
 	outline: none;
 	width: 240px;
+	min-width: 100px;
 }
 .barra-nav-icon{
 	display: inline-block;
@@ -68,12 +69,27 @@
 }
 .b-red{
 	border:1px solid #ff0000;
+	transition: .50s ease-in-out;
+}
+input[class="barra-nav-icon b-red"]:focus{
+	border:1px solid #ff0000;
+	box-shadow: 0 0 3px 0 #ff0000;
 }
 .b-green{
 	border:1px solid #009e1a;
+	transition: .50s ease-in-out;
+}
+input[class="barra-nav-icon b-green"]:focus{
+	border:1px solid #009e1a;
+	box-shadow: 0 0 3px 0 #009e1a;
 }
 .b-grey{
 	border:1px solid #aaa;
+	transition: .50s ease-in-out;
+}
+input[class="barra-nav-icon b-grey"]:focus{
+	border:1px solid #aaa;
+	box-shadow: 0 0 3px 0 #aaa;
 }
 .fa-times{
 	position: absolute;
@@ -109,4 +125,57 @@
 	position: absolute;
 	top: 19.2px;
 	left: 248px;
+}
+.button-mais{
+	background-color: #e1e1e1;
+	position: absolute;
+	border-top-right-radius: 5px;
+	top: 10px;
+	left: 253px;
+    border: 1px solid #aaa;
+    color: white;
+    padding: 0 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 19px;
+    outline: none;
+}
+.button-mais:active{
+	border:1px solid grey;
+	color: rgba(0,0,0,.5);
+}
+.button-menos{
+	background-color: #e1e1e1;
+	position: absolute;
+	border-bottom-right-radius: 5px;
+	top: 28px;
+	left: 253px;
+    border: 1px solid #aaa;
+    color: white;
+    padding: 0 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 19px;
+    outline: none;
+}
+.button-menos:active{
+	border:1px solid grey;
+	color: rgba(0,0,0,.5);
+}
+.text-area{
+	padding: 0.5px 4px;
+	border-radius: 5px;
+	margin: 10px;
+	width: 254px;
+	height: 160px;
+	transition: none;
+	outline: none;
 }
