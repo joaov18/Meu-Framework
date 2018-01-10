@@ -2,92 +2,123 @@
 	font-family: arial;
 }
 .btn{
-	padding: 10px;
+	border:1px solid #aaa;
+	padding: 10px 15px;
 	margin: 10px;
 	border-radius: 5px;
 	cursor: pointer;
 	text-align: center;
 	display: inline-block;
 	white-space: nowrap;
-	font-size: 17px;
+	font-size: 14px;
+	outline: none;
 }
-.red{
+.btn:active{
+	background-color: #a1a1a1;
+}
+.c-red{
 	background-color: #ff4040;
 	color: #fff;
 	border:1px solid #ff4040;
 }
-.red:hover{
+.c-red:hover{
 	background-color: #ff0000;
 	color: #fff;
 	transition:1s;
 }
-.blue{
+.c-blue{
 	background-color: #3232ff;
 	color: #fff;
 	border:1px solid #0000ff;
 }
-.blue:hover{
+.c-blue:hover{
 	background-color: #0000ff;
 	color: #fff;
 	transition:1s;
 }
-.green{
+.c-green{
 	background-color: #0e7c00;
 	color: #fff;
 	border:1px solid #13a800;
 }
-.green:hover{
+.c-green:hover{
 	background-color: #13a800;
 	color: #fff;
 	transition:1s;
 }
-.orange{
+.c-orange{
 	background-color: #ff872b;
 	color: #fff;
 	border:1px solid #ff6e00;
 }
-.orange:hover{
+.c-orange:hover{
 	background-color: #ff6e00;
 	color: #fff;
 	transition:1s;
 }
 
-.red-gradient{
+.c-red-gradient{
 	background-image: linear-gradient(to right,#ff7777,#ff3030);
 	border:1px solid #e56b6b;
 	color: #fff;
 }
-.red-gradient:hover{
+.c-red-gradient:hover{
 	background-image: linear-gradient(to right,#ff6868,#ff1c1c);
 	color: #fff;
 	transition: 1s;
 }
-.lilac{
+.c-lilac{
 	background-color: #7D54FA;
 	color: #fff;
 	border:1px solid #653DDE;
 }
-.lilac:hover{
+.c-lilac:hover{
 	background-color: #5A24FD;
 	color: #fff;
 	transition: 1s;
 }
-.black{
+.c-black{
 	background-color: #200F0F;
 	color: #fff;
 	border:1px solid #000;
 }
-.black:hover{
+.c-black:hover{
 	background-color: #000;
 	transition: 1s;
 }
-.grey{
+.c-grey{
 	background-color: grey;
 	color: #fff;
 	border:1px solid grey;
 }
-.grey:hover{
+.c-grey:hover{
 	background-color: #fff;
 	color: #212121;
 	transition: 1s;
+}
+.c-white{
+	background-color: #f3f3f3;
+	color: #222;
+	border:1px solid #f3f3f3;
+}
+.c-white:hover{
+	background-color: #111;
+	color: #f2f2f2;
+	transition: 1s;
+}
+.c-bluelight{
+	background-image: linear-gradient(to right,#00BFFF,#D3D3D3);
+	color:#fff;
+	border:1px solid #00FFFF;
+}
+.c-bluelight:hover{
+	background-image: linear-gradient(to right,#00FFFF,#ADD8E6);
+	color: #fff;
+	transition: 1s;
+}
+.lixo{
+	color: #fff;
+}
+.informacao{
+	color: #fff;
 }
