@@ -1,10 +1,12 @@
 .btn-social{
+	cursor: pointer;
 	margin: 10px;
 	padding: 10px;
 	border:1px solid #B0C4DE;
 	border-radius: 50%;
 	width: 37px;
 	display: inline-block;
+	outline: none;
 }
 .icone-social{
 	text-align: center;

@@ -31,7 +31,6 @@
 .c-blue:hover{
 	background-color: #0000ff;
 	color: #fff;
-	transition:1s;
 }
 .c-green{
 	background-color: #0e7c00;
@@ -41,7 +40,6 @@
 .c-green:hover{
 	background-color: #13a800;
 	color: #fff;
-	transition:1s;
 }
 .c-orange{
 	background-color: #ff872b;
@@ -51,7 +49,6 @@
 .c-orange:hover{
 	background-color: #ff6e00;
 	color: #fff;
-	transition:1s;
 }
 
 .c-red-gradient{
@@ -62,7 +59,6 @@
 .c-red-gradient:hover{
 	background-image: linear-gradient(to right,#ff6868,#ff1c1c);
 	color: #fff;
-	transition: 1s;
 }
 .c-lilac{
 	background-color: #7D54FA;
@@ -72,7 +68,6 @@
 .c-lilac:hover{
 	background-color: #5A24FD;
 	color: #fff;
-	transition: 1s;
 }
 .c-black{
 	background-color: #200F0F;
@@ -81,7 +76,6 @@
 }
 .c-black:hover{
 	background-color: #000;
-	transition: 1s;
 }
 .c-grey{
 	background-color: grey;
@@ -91,7 +85,6 @@
 .c-grey:hover{
 	background-color: #fff;
 	color: #212121;
-	transition: 1s;
 }
 .c-white{
 	background-color: #f3f3f3;
@@ -101,7 +94,6 @@
 .c-white:hover{
 	background-color: #111;
 	color: #f2f2f2;
-	transition: 1s;
 }
 .c-bluelight{
 	background-image: linear-gradient(to right,#00BFFF,#D3D3D3);
@@ -111,7 +103,6 @@
 .c-bluelight:hover{
 	background-image: linear-gradient(to right,#00FFFF,#ADD8E6);
 	color: #fff;
-	transition: 1s;
 }
 .lixo{
 	color: #fff;
