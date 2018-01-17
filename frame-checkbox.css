@@ -1,0 +1,45 @@
+.in-button{
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+}
+.lb-box{
+	position: relative;
+	display: inline-block;
+	width: 36px;
+	height: 20px;
+}
+.lb-box .in-box{
+	display: none;
+}
+.span-box{
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition:.4s; 
+	border-radius:1000px;
+}
+.span-box:before {
+	border-radius:1000px;
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 2px;
+	bottom: 2px;
+	background-color: #fff;
+	transition: .4s;
+}
+.in-box:checked + .span-box{
+	background-color: #2196F3;
+}
+.in-box:focus + .span-box{
+	box-shadow: 0 0 3px #2196F3;
+}
+.in-box:checked + .span-box:before{
+	transform: translateX(16px);
+}

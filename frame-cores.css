@@ -1,6 +1,7 @@
 *{
 	margin:0;
-	padding: 0; 
+	padding: 0;
+	font-family: Roboto;
 }
 .b-blue{
 	border:1px solid #1991EB;
@@ -78,6 +79,7 @@
 }
 .back-yellow{
 	background-color: #F7981C;
+	color: #F7F8FA;
 }
 .back-black{
 	background-color: #333F52;
@@ -96,4 +98,16 @@
 }
 .back-white{
 	background-color: #F7F8FA;
+}
+.back-greylight{
+	background-color: #c5d0de;
+	color: #354052;
+}
+.back-blacklight{
+	background-color: #516173;
+	color: #F7F8FA;
+}
+.back-blackstrong{
+	background-color: #273142;
+	color: #F7F8FA;
 }
