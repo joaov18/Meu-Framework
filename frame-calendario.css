@@ -1,0 +1,20 @@
+.table-simples{
+	border:1px solid #C5D0DE;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.mes{
+	border: 1px solid #fff;
+	padding: 10px;
+	font-size: 20px;
+}
+.dia, .dia-b{
+	border: 1px solid #fff;
+	padding: 10px;
+	text-align: center;
+	border-radius: 50%;
+}
+.dia:hover{
+	background-color: #1991EB;
+	transition: .50s ease-in-out;
+}

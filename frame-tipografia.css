@@ -1,0 +1,45 @@
+.h1-title{
+	font-size: 26px;
+	margin: 10px;
+	padding: 5px;
+}
+.h2-title{
+	font-size: 22px;
+	margin: 10px;
+	padding: 5px;
+}
+.h3-title{
+	font-size: 18px;
+	margin: 10px;
+	padding: 5px;
+}
+.h4-title{
+	font-size: 14px;
+	margin: 10px;
+	padding: 5px;
+}
+.h5-title{
+	font-size: 12px;
+	margin: 10px;
+	padding: 5px;
+}
+.h6-title{
+	font-size: 10px;
+	margin: 10px;
+	padding: 5px;
+}
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
+.align-left{
+	text-align: left;
+}
+.floa-right{
+	float: right;
+}
+.floa-left{
+	float: left;
+}

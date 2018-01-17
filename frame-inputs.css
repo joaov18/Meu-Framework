@@ -1,0 +1,64 @@
+.in-simples{
+	width: 250px;
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+}
+.in-search{
+	padding: 10px 30px 10px 10px;
+	width: 210px;
+	border-radius: 4px;
+	outline: none;
+}
+.in-search[name="borde-red"]:focus{
+	box-shadow: 0 0 3px 0 #ff0000;
+}
+.in-search-icon{
+	padding: 10px 30px 10px 30px;
+	width: 190px;
+	border-radius: 4px;
+	outline: none;
+}
+.lupa, .excluir, .confirma{
+	position: absolute;
+	top: 9.2px;
+	left:225px;
+	cursor: pointer;
+}
+.data, .usuario{
+	position: absolute;
+	top: 9.2px;
+	left:10px;
+	cursor: pointer;
+}
+.more{
+	position: absolute;
+	top: 0;
+	left: 234.5px;
+	font-size: 13px;
+	padding: 1.5px 4px;
+	border-top-right-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+.anyless{
+	position: absolute;
+	top: 18px;
+	left: 234.5px;
+	font-size: 15px;
+	padding: 0.5px 5.2px;
+	border-bottom-right-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+.more:active, .anyless:active{
+	color: #fff;
+}
+.text-area{
+	width: 240px;
+	height: 130px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 4px;
+	outline: none;
+}
