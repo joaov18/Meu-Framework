@@ -4,6 +4,7 @@
 	display: inline-block;
 }
 .lb{
+	font-size: 10px;
 	min-width: 46px;
 	padding: 8px;
 	border-radius: 4px;
