@@ -10,8 +10,11 @@
 	border-radius: 4px;
 	outline: none;
 }
-.in-search[name="borde-red"]:focus{
+.in-search[name="borde-red"]:focus, .in-search-icon[name="borde-red"]:focus{
 	box-shadow: 0 0 3px 0 #ff0000;
+}
+.in-search[name="borde-green"]:focus, .in-search-icon[name="borde-green"]:focus{
+	box-shadow: 0 0 4px 0 #428500;
 }
 .in-search-icon{
 	padding: 10px 30px 10px 30px;
@@ -43,10 +46,10 @@
 }
 .anyless{
 	position: absolute;
-	top: 18px;
+	top: 19px;
 	left: 234.5px;
-	font-size: 15px;
-	padding: 0.01px 5.2px;
+	font-size: 12px;
+	padding: 1px 6px;
 	border-bottom-right-radius: 5px;
 	outline: none;
 	cursor: pointer;

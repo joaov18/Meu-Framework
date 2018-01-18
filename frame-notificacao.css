@@ -1,0 +1,27 @@
+.in-notificacao{
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+}
+.lb-notificacao{
+	padding:10px 40px 10px 35px;
+	height: 36px;
+	outline: none;
+	border-radius: 4px;
+}
+.visto{
+	position: absolute;
+	top: 6px;
+	left: 16px;
+}
+.fecha{
+	position: absolute;
+	top: 5px;
+	left:315px;
+}
+.fecha-dois{
+	position: absolute;
+	top: 5px;
+	left:425px;
+}

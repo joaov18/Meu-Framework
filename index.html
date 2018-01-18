@@ -11,7 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="frame-calendario.css">
 	<link rel="stylesheet" type="text/css" href="frame-checkbox.css">
 	<link rel="stylesheet" type="text/css" href="frame-label.css">
+	<link rel="stylesheet" type="text/css" href="frame-notificacao.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -45,7 +47,7 @@
 	</div>
 	<div class="in-simples">
 		<i class="fa fa-search lupa c-grey"></i>
-		<input type="text" placeholder="Your Name" class="in-search b-green">
+		<input type="text" name="borde-green" placeholder="Your Name" class="in-search b-green">
 	</div>
 	<div class="in-simples">
 		<i class="fa fa-search lupa c-grey"></i>
@@ -62,7 +64,7 @@
 	</div><div class="in-simples">
 		<i class="fa fa-check confirma c-green"></i>
 		<i class="fa fa-user-o usuario c-grey"></i>
-		<input type="text" placeholder="Your Name" class="in-search-icon b-green">
+		<input type="text" name="borde-green" placeholder="Your Name" class="in-search-icon b-green">
 	</div>
 
 
@@ -234,15 +236,41 @@
 	<button class="btn-social b-grey"><i class="fa fa-twitter fa-lg"></i></button>
 	<button class="btn-social b-grey"><i class="fa fa-google fa-lg"></i></button>
 	<button class="btn-social b-grey"><i class="fa fa-linkedin fa-lg"></i></button>
-	<button class="btn-social b-grey"><i class="fa fa-vimeo fa-lg"></i></button>
+	<button class="btn-social b-grey"><i class="fa fa-vimeo fa-lg meio"></i></button>
 	<button class="btn-social b-grey"><i class="fa fa-pinterest-p fa-lg"></i></button>
 	<button class="btn-social b-grey"><i class="fa fa-instagram fa-lg"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-facebook fa-lg"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-twitter fa-lg"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-google fa-lg"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-linkedin fa-lg"></i></button>
-	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-vimeo fa-lg"></i></button>
+	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-vimeo fa-lg meio"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-pinterest-p fa-lg"></i></button>
 	<button class="btn-social b-grey back-blackstrong "><i class="fa fa-instagram fa-lg"></i></button>
+	<br>
+
+
+	<!-- Notificação -->
+
+
+	<div class="in-notificacao">
+		<i class="fa fa-check-circle visto c-white"></i>
+		<i class="fa fa-times fecha  c-white"></i>
+		<label class="lb-notificacao back-green">Success! This is positive notification.</label>
+	</div><br>
+	<div class="in-notificacao">
+		<i class="fa fa-check-circle visto c-white"></i>
+		<i class="fa fa-times fecha-dois  c-white"></i>
+		<label class="lb-notificacao back-blue">All servers are now running smoothly again! Thanks.</label>
+	</div><br>
+	<div class="in-notificacao">
+		<i class="fa fa-check-circle visto c-white"></i>
+		<i class="fa fa-times fecha-dois  c-white"></i>
+		<label class="lb-notificacao back-yellow">Warning. Loading of this page taking a way too long.</label>
+	</div><br>
+	<div class="in-notificacao">
+		<i class="fa fa-check-circle visto c-white"></i>
+		<i class="fa fa-times fecha  c-white"></i>
+		<label class="lb-notificacao back-red">Error. Can't  connect to the platform...</label>
+	</div>
 </body>
 </html>
