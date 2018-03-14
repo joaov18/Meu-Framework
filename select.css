@@ -1,0 +1,33 @@
+.select-base{
+	width:250px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+}
+.select-base .select-acao{
+	height: 36px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 4px;
+	-webkit-appearance:none;
+	padding: 0 25px 0 15px;
+	outline: none;
+}
+.seta-baixo{
+	position: absolute;
+	top: 10px;
+	left: 230px;
+}
+.p250{
+	width: 250px;
+}
+.in-search[name="border-blue"]:focus{
+	border:1px solid #2ea2f8;
+}
+.in-img{
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%; 
+}

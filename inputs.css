@@ -17,7 +17,7 @@
 	box-shadow: 0 0 4px 0 #428500;
 }
 .in-search-icon{
-	padding: 10px 30px 10px 30px;
+	padding: 10px 30px 10px 33px;
 	width: 190px;
 	border-radius: 4px;
 	outline: none;
@@ -39,7 +39,7 @@
 	top: 0;
 	left: 234.5px;
 	font-size: 13px;
-	padding: 1.5px 4px;
+	padding: 1.5px 4.6px;
 	border-top-right-radius: 5px;
 	outline: none;
 	cursor: pointer;
@@ -49,7 +49,7 @@
 	top: 19px;
 	left: 234.5px;
 	font-size: 12px;
-	padding: 1px 6px;
+	padding: 1.2px 6.6px;
 	border-bottom-right-radius: 5px;
 	outline: none;
 	cursor: pointer;
@@ -64,4 +64,14 @@
 	padding: 5px;
 	border-radius: 4px;
 	outline: none;
+	resize: none;
+	overflow: auto;
+}
+.fonte-pequena{
+	font-size: 13px;
+	padding-left: 10px;
+	letter-spacing: 0.5px;
+}
+.positivo{
+	padding-top: 8px;
 }

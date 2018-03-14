@@ -1,0 +1,27 @@
+.btn-pass-base{
+	min-width: 36px;
+	min-height: 36px;
+	display: inline-block;
+	margin: 10px;
+}
+.btn-pass{
+	outline: none;
+	border-radius: 4px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	padding:10px 13px;
+	cursor: pointer;
+}
+.seta-espaco-right{
+	padding-right:15px;
+	padding-left: 3px;
+}
+.seta-espaco-left{
+	padding-left:15px;
+	padding-right:3px;
+}
+.btn-pass-rounds{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}

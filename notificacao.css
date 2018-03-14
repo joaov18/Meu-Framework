@@ -19,9 +19,29 @@
 	position: absolute;
 	top: 5px;
 	left:315px;
+	cursor: pointer;
 }
 .fecha-dois{
 	position: absolute;
 	top: 5px;
 	left:425px;
+	cursor: pointer;
+}
+.base-noti-icone{
+	position: relative;
+	width: 15px;
+	margin: 10px;
+	display: inline-block;
+	padding:5px; 
+}
+.recado{
+	position: absolute;
+	content: '';
+	text-align: center;
+	min-width: 15px;
+	top: -5px;
+	left: 13px;
+	border-radius: 1000px;
+	padding:2px; 
+	font-size: 12px;
 }
